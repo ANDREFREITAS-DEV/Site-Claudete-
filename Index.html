@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Psicoterapia com Claudete Soares. Especialista em Alta Performance, Ansiedade e Terapia de Casal.">
+    <title>Terapeuta Claudete | Especialista em Alta Performance e Casais</title>
+    
+    <!-- Fonte Google (Lato e Playfair Display) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Folha de Estilo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>Claudete <span>Terapeuta</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#contato" class="btn-nav">Agendar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Início) -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2>Transforme sua mente, potencialize sua vida.</h2>
+            <p>Atendimento especializado em alta performance, controle de ansiedade e relacionamentos.</p>
+            <a href="https://wa.me/5518996007466" target="_blank" class="btn-primary">Agendar Consulta</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section-padding">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h3>Sobre a Terapeuta Claudete</h3>
+                <p>Com vasta experiência clínica, dedico minha carreira a ajudar pessoas a encontrarem o equilíbrio emocional e a atingirem seu potencial máximo.</p>
+                <p>Acredito que a terapia não é apenas sobre curar dores, mas sobre construir uma vida com propósito, relacionamentos saudáveis e uma mente resiliente.</p>
+                <br>
+                <a href="https://www.instagram.com/terapeuta_claudete_soares?igsh=a2V0OTdhMzZsZjhs" target="_blank" class="btn-social-inline"><i class="fab fa-instagram"></i> Siga no Instagram</a>
+            </div>
+            <div class="about-image">
+                <!-- AQUI ESTÁ A FOTO: O arquivo deve se chamar foto.jpg -->
+                <img src="foto.jpg" alt="Terapeuta Claudete Soares" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="bg-light section-padding">
+        <div class="container">
+            <h3 class="section-title">Minhas Especialidades</h3>
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <i class="fas fa-chart-line icon-card"></i>
+                    <h4>Alta Performance</h4>
+                    <p>Foco em desenvolvimento pessoal e profissional, desbloqueando potenciais para atingir objetivos ambiciosos.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <i class="fas fa-brain icon-card"></i>
+                    <h4>Controle de Ansiedade</h4>
+                    <p>Técnicas comprovadas para gerenciar o estresse, crises de ansiedade e promover o bem-estar mental.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <i class="fas fa-heart icon-card"></i>
+                    <h4>Relacionamento e Casal</h4>
+                    <p>Mediação de conflitos, melhoria da comunicação e fortalecimento de vínculos afetivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato e Formulário -->
+    <section id="contato" class="section-padding">
+        <div class="container">
+            <h3 class="section-title">Entre em Contato</h3>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p>Tem dúvidas ou quer agendar um horário? Preencha o formulário ou chame no WhatsApp.</p>
+                    <ul class="info-list">
+                        <li><i class="fas fa-envelope"></i> Claudetesoaressp@gmail.com</li>
+                        <li><i class="fab fa-whatsapp"></i> (18) 99600-7466</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Atendimento Online e Presencial</li>
+                    </ul>
+                </div>
+                
+                <!-- Formulário Netlify -->
+                <form class="contact-form" name="contato-claudete" method="POST" data-netlify="true">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h4>Claudete Terapeuta</h4>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1D6MHxtxcw/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/terapeuta_claudete_soares?igsh=a2V0OTdhMzZsZjhs" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5518996007466" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 Claudete Terapia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5518996007466" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
